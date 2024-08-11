@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ecolaura-env
+  namespace: ecolaura
+data:
+  DJANGO_SETTINGS_MODULE: "ecolaura.settings.development"
+  DATABASE_URL: "postgresql://user:password@dev-db-host:5432/ecolaura"
+  REDIS_URL: "redis://dev-redis-host:6379/0"

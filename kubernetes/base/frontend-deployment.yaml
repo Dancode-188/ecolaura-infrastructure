@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ecolaura-frontend
+  namespace: ecolaura
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ecolaura-frontend
+  template:
+    metadata:
+      labels:
+        app: ecolaura-frontend
+    spec:
+      containers:
+      - name: ecolaura-frontend
+        image: ecolaura-frontend:latest
+        ports:
+        - containerPort: 80

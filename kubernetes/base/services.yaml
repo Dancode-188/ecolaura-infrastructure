@@ -1,0 +1,26 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ecolaura-backend-service
+  namespace: ecolaura
+spec:
+  selector:
+    app: ecolaura-backend
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ecolaura-frontend-service
+  namespace: ecolaura
+spec:
+  selector:
+    app: ecolaura-frontend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80

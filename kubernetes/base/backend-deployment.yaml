@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ecolaura-backend
+  namespace: ecolaura
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ecolaura-backend
+  template:
+    metadata:
+      labels:
+        app: ecolaura-backend
+    spec:
+      containers:
+      - name: ecolaura-backend
+        image: ecolaura-backend:latest
+        ports:
+        - containerPort: 8000
+        envFrom:
+        - configMapRef:
+            name: ecolaura-env
