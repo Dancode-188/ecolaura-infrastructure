@@ -10,25 +10,26 @@ Welcome to the heart of Ecolaura's technological forest! This repository houses 
 
 
 
+
 ## 🌱 Table of Contents
 
 
-
+- [Documentation](#-documentation)
 - [Our Digital Ecosystem](#-our-digital-ecosystem)
-
 - [Getting Started](#-getting-started)
-
 - [Infrastructure Components](#-infrastructure-components)
-
 - [Deployment](#-deployment)
-
 - [Monitoring and Maintenance](#-monitoring-and-maintenance)
-
 - [Disaster Recovery](#-disaster-recovery)
-
 - [Contributing](#-contributing)
-
 - [License](#-license)
+
+
+## 📚 Documentation
+
+For comprehensive documentation of the entire Ecolaura project, including detailed architecture explanations, API specifications, development guidelines, and more, please refer to our [Ecolaura Documentation Repository](https://github.com/Dancode-188/ecolaura-docs).
+
+This central documentation repository contains all the information you need to understand, develop, and contribute to Ecolaura effectively. It covers not just the infrastructure, but all aspects of our sustainable e-commerce platform.
 
 
 
@@ -66,9 +67,9 @@ Ready to join our band of digital eco-warriors? Here's how to get this green mac
 
 ```bash
 
-  git clone https://github.com/ecolaura/infrastructure.git
+  git clone https://github.com/Dancode-188/ecolaura-infrastructure.git
 
-  cd infrastructure
+  cd ecolaura-infrastructure
 
 ```
 
@@ -178,7 +179,7 @@ The watchful eyes and ears of our forest, alert to any disturbances in the ecosy
 
 
 
-Bringing new life to our digital forest is an exciting process! Check out our \[Deployment Guide\](docs/deployment_guide.md) for step-by-step instructions on how to nurture new growth in our ecosystem.
+Bringing new life to our digital forest is an exciting process! Check out our [Deployment Guide](docs/deployment_guide.md) for step-by-step instructions on how to nurture new growth in our ecosystem.
 
 
 
@@ -208,7 +209,7 @@ A healthy forest requires constant care and attention. Our [Infrastructure Overv
 
 
 
-Even the mightiest redwoods can fall. But fear not! Our \[Disaster Recovery Plan\](docs/disaster\_recovery.md) ensures that we can weather any storm:
+Even the mightiest redwoods can fall. But fear not! Our [Disaster Recovery Plan](docs/disaster_recovery.md) ensures that we can weather any storm:
 
 
 
@@ -222,10 +223,9 @@ Even the mightiest redwoods can fall. But fear not! Our \[Disaster Recovery Plan
 
 ## 🤝 Contributing
 
+We believe in the power of community to create a more sustainable world. If you'd like to contribute to our digital forest, check out our [Contributing Guide](https://github.com/Dancode-188/ecolaura-docs/blob/main/development/contribution_guide.md) in our documentation repository. Whether you're planting new seeds (features) or pruning existing branches (bug fixes), your help in growing our ecosystem is always appreciated!
 
-
-We believe in the power of community to create a more sustainable world. If you'd like to contribute to our digital forest, check out our [Contributing Guide](CONTRIBUTING.md). Whether you're planting new seeds (features) or pruning existing branches (bug fixes), your help in growing our ecosystem is always appreciated!
-
+For infrastructure-specific contributions, please ensure you follow the best practices outlined in our [Infrastructure Overview](docs/infrastructure_overview.md) and [Deployment Guide](docs/deployment_guide.md).
 
 
 ## 📜 License
