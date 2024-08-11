@@ -1,0 +1,15 @@
+---
+- hosts: web
+  tasks:
+    - name: Deploy application
+      git:
+        repo: 'https://github.com/yourusername/ecolaura.git'
+        dest: /var/www/ecolaura
+        version: main
+      become: yes
+
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted
+      become: yes

@@ -1,0 +1,12 @@
+---
+- hosts: all
+  roles:
+    - common
+
+- hosts: web
+  roles:
+    - web_server
+
+- hosts: database
+  roles:
+    - database
