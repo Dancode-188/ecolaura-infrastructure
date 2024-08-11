@@ -94,7 +94,7 @@ Ready to join our band of digital eco-warriors? Here's how to get this green mac
 
   aws configure
 
- ```
+```
 
 
 
