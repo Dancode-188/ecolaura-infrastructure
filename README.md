@@ -232,7 +232,7 @@ We believe in the power of community to create a more sustainable world. If you'
 
 
 
-This project is licensed under the Sustainable Open Source License (SOSL) - see the \[LICENSE\](LICENSE) file for details. By using and contributing to this project, you're agreeing to use your powers for the good of the planet! 🌍💚
+This project is licensed under the Sustainable Open Source License (SOSL) - see the [LICENSE](LICENSE) file for details. By using and contributing to this project, you're agreeing to use your powers for the good of the planet! 🌍💚
 
 
 
