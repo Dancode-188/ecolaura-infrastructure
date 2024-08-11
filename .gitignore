@@ -12,3 +12,9 @@ override.tf.json
 *_override.tf.json
 .terraformrc
 terraform.rc
+
+# Ignore any .terraform directories
+**/.terraform/
+
+# Ignore any .exe files
+**/*.exe
